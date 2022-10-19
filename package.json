@@ -1,0 +1,21 @@
+{
+  "name": "test_api",
+  "version": "1.0.0",
+  "description": "Excercie CRUD NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Axel_Ibo",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "sequelize": "^6.25.2"
+  },
+  "dependencies": {
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
